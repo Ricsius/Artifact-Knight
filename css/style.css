@@ -1,0 +1,108 @@
+/*
+body{
+   margin: 0;
+}
+
+canvas{
+    width: 800px; 
+   height: 600px;
+}
+
+input{
+   margin: 25px auto;
+   width: 90px;
+   height: 45px;
+}
+
+#UI{
+   width: 800px; 
+   height: 600px;
+   position: absolute;
+}
+
+#MainMenu{
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+
+#HelpScreen{
+   padding: 30px;
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+
+#HintScreen{
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+
+#PauseScreen{
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+
+#InventoryScreen{
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+
+#GameOverScreen{
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+
+#FinishScreen{
+   width: inherit;
+   height: inherit;
+   position: absolute;
+   display: none;
+   flex-direction: column;
+   text-align: center;
+   background-color: teal;
+}
+*/
+
+#MobileUI>div{
+   margin: 10px auto;
+   border: solid black 1px;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   margin-bottom: 50px;
+}
+
+#MobileUI>div>img{
+   width: inherit;
+   height: inherit;
+}

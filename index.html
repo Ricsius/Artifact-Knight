@@ -1,0 +1,105 @@
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+   <div id ="UI">
+      <div id = "MainMenu" name = "MainMenu">
+         <b>Main Menu</b>
+         <input type = "button" id = "PlayButton" value = "Play">
+         <input type = "button" id = "HelpButton" value = "Help">
+      </div>
+      
+      <div id = "HelpScreen">
+         <h1>Basic instructions</h1>
+         <h2>The story</h2>
+         <p>A professor who studies magical artifacts, asked you to bring him some lost artfacts.</p> 
+         <p>You are shielded from the harmful curses, however the professor is not, so choose your items wisely.</p>
+         <h2>Contorls</h2>
+         <ul>
+            <li>Escape: Pauses the game.</li>
+            <li>Up arrow: Jump.</li>
+            <li>Down arrow: Pick up artifacts / show your artifacts to the professor / open doors.</li>
+            <li>Left arrow: Move your character to to left.</li>
+            <li>Right arrow: Move your character to to right.</li>
+            <li>I button: Opens your inventory.</li>
+         </ul>
+         <a id = "HelpScreen_a" href = "#MainMenu"> <input type = "button" id = "BackButton_H" value = "Back"> </a>
+      </div>
+      
+      <div id = "HintScreen">
+         <p>The item you have to recover is:</p> 
+         
+         <div>
+            <img id = "Mandatory_Img">
+         </div>
+         
+         <p>Hint for the cursed items :</p>
+         
+         <div id = "CursedHint">
+         </div>
+         
+         <input type = "button" id = "OKButton" value = "OK">
+         
+      </div>
+      
+      <div id = "PauseScreen">
+         <b>Paused</b>
+         <input type = "button" id = "ResumeButton" value = "Resume">
+         <input type = "button" id = "QuitButton_P" value = "Quit">
+      </div>
+      
+      
+      <div id = "InventoryScreen">
+         <b>Inventory</b>
+         <p>(Click on the item you wish to drop.)</p>
+         <table id = "Items"> 
+            <tr> 
+               <td id = "0_Item"><img id = "0_Item_Image"></td>
+               <td id = "1_Item"><img id = "1_Item_Image"></td> 
+               <td id = "2_Item"><img id = "2_Item_Image"></td> 
+               <td id = "3_Item"><img id = "3_Item_Image"></td> 
+               <td id = "4_Item"><img id = "4_Item_Image"></td> 
+               <td id = "5_Item"><img id = "5_Item_Image"></td> 
+               <td id = "6_Item"><img id = "6_Item_Image"></td> 
+               <td id = "7_Item"><img id = "7_Item_Image"></td> 
+               <td id = "8_Item"><img id = "8_Item_Image"></td> 
+               <td id = "9_Item"><img id = "9_Item_Image"></td> 
+            </tr> 
+         </table>
+         
+         <input type = "button" id = "BackButton_I" value = "Back">
+      </div>
+      
+      <div id = "GameOverScreen">
+         <b>Game Over!</b>
+         <input type = "button" id = "RetryButton" value = "Retry">
+         <input type = "button" id = "QuitButton_GO" value = "Quit">
+            <div id = "GameOverMessage">
+            </div>
+      </div>
+      
+      <div id = "FinishScreen">
+         <b>Congra tulations, You finished my game!</b>
+         <div id = "Bonus">
+         </div>
+         <input type = "button" id = "QuitButton_F" value = "Yay">
+      </div>
+      
+   </div>
+    
+    <div id = "MobileUI">
+         <div id = "MobileMenuButton"> <img src = "./imgs/menu.png"> </div> 
+         <div id = "JumpButton"> <img src = "./imgs/upArrowButton.png"> </div> 
+         <br>
+         <div id = "MoveLeftButton"> <img src = "./imgs/leftArrowButton.png"> </div>
+         <div id = "MoveRightButton"> <img src = "./imgs/rightArrowButton.png">  </div> 
+         <br>
+         <div id = "InteractionButton"> <img src = "./imgs/hand.png"> </div>
+         <div id = "InventoryButton"> <img src = "./imgs/backpack.png"> </div> 
+      </div>
+    
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
